@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Dids",
-  title: "Hi i'm Dids Irwyn Reyes",
+  title: "Hi! I'm Dids Irwyn Reyes",
   subTitle: emoji(
-    "A passionate Full Stack Overflow Developer 😂 kidding aside, i'm interested in Mobile Development and Artificial Intelligence."
+    "A passionate Full StackOverflow Developer 😂 kidding aside, i'm interested in Mobile Development and Artificial Intelligence."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1XyHvAjEa-WVd4_GvDZqgnZegjLsAfd2a/edit?usp=sharing&ouid=110535527481393945933&rtpof=true&sd=true", // Set to empty to hide the button
@@ -129,7 +129,7 @@ const educationInfo = {
         'Eulogio "Amang" Rodriguez Institute of Science and Technology',
       logo: require("./assets/images/EARIST_Logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "2019 - 2022",
+      duration: "2018 - 2022",
       desc: "",
       descBullets: [
         //"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -156,7 +156,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "25%" //Insert relative proficiency in percentage
+      progressPercentage: "35%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -164,7 +164,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "30%"
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -173,7 +173,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
