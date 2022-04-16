@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a6005f5.chunk.css",
-    "main.js": "/static/js/main.df09a83f.chunk.js",
-    "main.js.map": "/static/js/main.df09a83f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ff5125a0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ff5125a0.js.map",
+    "main.css": "/static/css/main.8aff5a27.chunk.css",
+    "main.js": "/static/js/main.52180ae9.chunk.js",
+    "main.js.map": "/static/js/main.52180ae9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.235315ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.235315ad.js.map",
     "static/js/2.ce48cb0a.chunk.js": "/static/js/2.ce48cb0a.chunk.js",
     "static/js/2.ce48cb0a.chunk.js.map": "/static/js/2.ce48cb0a.chunk.js.map",
-    "static/css/3.df879eac.chunk.css": "/static/css/3.df879eac.chunk.css",
+    "static/css/3.6894e245.chunk.css": "/static/css/3.6894e245.chunk.css",
     "static/js/3.52fb1780.chunk.js": "/static/js/3.52fb1780.chunk.js",
     "static/js/3.52fb1780.chunk.js.map": "/static/js/3.52fb1780.chunk.js.map",
-    "static/css/4.e91a4b36.chunk.css": "/static/css/4.e91a4b36.chunk.css",
+    "static/css/4.656a79c6.chunk.css": "/static/css/4.656a79c6.chunk.css",
     "static/js/4.6d9e7a09.chunk.js": "/static/js/4.6d9e7a09.chunk.js",
     "static/js/4.6d9e7a09.chunk.js.map": "/static/js/4.6d9e7a09.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c7d47082c3d9ecac318bad384b80704c.js": "/precache-manifest.c7d47082c3d9ecac318bad384b80704c.js",
+    "precache-manifest.9bac744cfdbe57787dbbe79e663dd765.js": "/precache-manifest.9bac744cfdbe57787dbbe79e663dd765.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
-    "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
-    "static/css/main.1a6005f5.chunk.css.map": "/static/css/main.1a6005f5.chunk.css.map",
+    "static/css/3.6894e245.chunk.css.map": "/static/css/3.6894e245.chunk.css.map",
+    "static/css/4.656a79c6.chunk.css.map": "/static/css/4.656a79c6.chunk.css.map",
+    "static/css/main.8aff5a27.chunk.css.map": "/static/css/main.8aff5a27.chunk.css.map",
     "static/js/2.ce48cb0a.chunk.js.LICENSE.txt": "/static/js/2.ce48cb0a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/EARIST_Logo.png": "/static/media/EARIST_Logo.a03c45b7.png",
@@ -38,9 +38,9 @@
     "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff5125a0.js",
+    "static/js/runtime-main.235315ad.js",
     "static/js/2.ce48cb0a.chunk.js",
-    "static/css/main.1a6005f5.chunk.css",
-    "static/js/main.df09a83f.chunk.js"
+    "static/css/main.8aff5a27.chunk.css",
+    "static/js/main.52180ae9.chunk.js"
   ]
 }
