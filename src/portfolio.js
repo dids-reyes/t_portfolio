@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/mushroom"; // Rename to your file n
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 4000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -306,23 +306,24 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Developing cool stuff, I also write my opinion to matters that I find interesting.",
+  displayMediumBlogs: true, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@dids.irwyn.reyes/online-classes-in-the-philippines-is-mental-health-more-important-than-education-fe30bcf702e4",
+      title:
+        "Online Classes in the Philippines. Is Mental Health more important than Education?",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Since the sudden spread of Covid-19 around the world affected our daily lives, the economy dropped and some are at risk of losing their livelihoods, most of the companies as well as small businesses closed in compliance with government regulation due to the pandemic and causes a drastic increase in the unemployment rate here in the Philippines."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@dids.irwyn.reyes/historical-negationism-and-the-rise-of-cyber-propaganda-72de4166f57f",
+      title: "Historical Negationism and the Rise of Cyber Propaganda",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "From campaign jingles to political advertisements on our televisions, it evolves and passes to our personal smartphones, where we don’t notice that targeting individuals actually work through the use of data and new technologies that are unknown to most of the Netizens that use Social Media."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
