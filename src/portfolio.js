@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/mushroom"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/brewing_coffee"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full StackOverflow Developer 😂 kidding aside, i'm interested in Mobile Development and Artificial Intelligence."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1XyHvAjEa-WVd4_GvDZqgnZegjLsAfd2a/edit?usp=sharing&ouid=110535527481393945933&rtpof=true&sd=true", // Set to empty to hide the button
+    "https://www.docdroid.net/tOdeALf/cv-dids-pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,9 +35,10 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/skedaddl3",
   linkedin: "https://www.linkedin.com/in/dids-irwyn-reyes-605214159/",
-  gmail: "reyes.dids.bscs@gmail.com",
+  gmail: "dids.irwyn@gmail.com",
   gitlab: "https://gitlab.com/skedaddl3",
-  facebook: "https://www.facebook.com/didsirwyn.reyes",
+  // facebook: "https://www.facebook.com/didsirwyn.reyes",
+  instagram: "https://www.instagram.com/p0tatofu/",
   //medium: "https://medium.com/@reyes.dids.bscs",
   stackoverflow: "https://stackoverflow.com/users/10428502/dids",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -71,38 +72,38 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
+    // {
+    //   skillName: "sass",
+    //   fontAwesomeClassname: "fab fa-sass"
+    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "reactjs",
+    //   fontAwesomeClassname: "fab fa-react"
+    // },
+    // {
+    //   skillName: "nodejs",
+    //   fontAwesomeClassname: "fab fa-node"
+    // },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -114,6 +115,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "erlang",
+      fontAwesomeClassname: "fab fa-erlang"
+    },
+    {
+      skillName: "phoenix",
+      fontAwesomeClassname: "fab fa-phoenix-framework"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -160,7 +169,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "10%"
+      progressPercentage: "25%"
     },
     {
       Stack: "Programming",
@@ -173,33 +182,35 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Front-End Mobile Developer Intern",
+      company: "Pragtechnologies",
+      companylogo: require("./assets/images/pragtechnologies.png"),
+      date: "March 2022 – August 2022",
+      desc: "Language used is Dart using Flutter Framework.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created Mobile App Projects and Implemented Jitsi Library",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Jr. Software Engineer",
+      company: "Pragtechnologies",
+      companylogo: require("./assets/images/pragtechnologies.png"),
+      date: "August 2022 – February 2023",
+      desc: "Back-End Development, using Elixir and Phoenix Framework",
+      descBullets: [
+        "Worked Mostly in Telemedicine Platform",
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "Airbnb",
+    //   companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    // }
   ]
 };
 
