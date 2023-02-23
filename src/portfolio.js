@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/brewing_coffee.json"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/among_us.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -220,7 +220,17 @@ const workExperiences = {
       role: "Jr. Software Engineer",
       company: "Pragtechnologies",
       companylogo: require("./assets/images/pragtechnologies.png"),
-      date: "August 2022 – February 2023",
+      date: "August 2022 – Current",
+      desc: "Back-End Development, using Elixir and Phoenix Framework",
+      descBullets: [
+        "Worked Mostly in Telemedicine Platform",
+      ]
+    },
+    {
+      role: "Jr. Software Engineer",
+      company: "SeeYouDoc",
+      companylogo: require("./assets/images/syd.jpg"),
+      date: "August 2022 – Current",
       desc: "Back-End Development, using Elixir and Phoenix Framework",
       descBullets: [
         "Worked Mostly in Telemedicine Platform",
