@@ -185,6 +185,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Internship",
+      company: "Municipality of Romblon",
+      companylogo: require("./assets/images/logo_001.png"),
+      date: "May 2019 – June 2020",
+      // desc: "Database",
+      descBullets: [
+        "Database",
+      ]
+    },
+    {
+      role: "Visual Graphic Designer",
+      company: "RCC",
+      companylogo: require("./assets/images/rcc.png"),
+      date: "June 2019 – July 2020",
+      // desc: "Adobe Ps, Premiere, Illustrator",
+      descBullets: [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe Premiere",
+      ]
+    },
+    {
       role: "Front-End Mobile Developer Intern",
       company: "Pragtechnologies",
       companylogo: require("./assets/images/pragtechnologies.png"),
