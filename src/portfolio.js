@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/among_us.json"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/35785-preloader-wifiish-by-fendah-cyberbryte.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -51,13 +51,13 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "An Aspiring Developer that explored a lot of Tech but doesn't have a specific expertise",
+    "I'm currently working as Backend Developer, but also knowledgeable in Frontend Development.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "🧑‍💻 Develop highly Interactive Front End / User Interfaces for your Web and Mobile Applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services ( Firebase )")
+    emoji("Can implement Backend Service."),
+    emoji("Integrates Third-Party Services.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -80,6 +80,26 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
     // {
     //   skillName: "reactjs",
     //   fontAwesomeClassname: "fab fa-react"
@@ -93,13 +113,9 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: "fab fa-swift"
     // },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
     // {
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
@@ -108,18 +124,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
-    {
-      skillName: "erlang",
-      fontAwesomeClassname: "fab fa-erlang"
-    },
+    // {
+    //   skillName: "erlang",
+    //   fontAwesomeClassname: "fab fa-erlang"
+    // },
     {
       skillName: "phoenix",
       fontAwesomeClassname: "fab fa-phoenix-framework"
@@ -164,17 +180,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Version Control System", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "35%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "25%"
+      progressPercentage: "35%"
     },
-    {
-      Stack: "Programming",
-      progressPercentage: "40%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -221,9 +237,9 @@ const workExperiences = {
       company: "Pragtechnologies",
       companylogo: require("./assets/images/pragtechnologies.png"),
       date: "August 2022 – Current",
-      desc: "Back-End Development, using Elixir and Phoenix Framework",
+      desc: "Back-End Development, Elixir",
       descBullets: [
-        "Worked Mostly in Telemedicine Platform",
+        "Assigned in Projects the Company is currently working, most of it are Backend Stuffs",
       ]
     },
     {
@@ -263,14 +279,14 @@ const bigProjects = {
     {
       image: require("./assets/images/municipality_r1.png"),
       projectName: "Municipality of Romblon",
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://saayahealth.com/"
-      //   }
-      //   //  you can add extra buttons here.
-      // ]
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://romblonthemarble.gov.ph/"
+        }
+        //  you can add extra buttons here.
+      ]
     },
     {
       image: require("./assets/images/rcc.png"),
