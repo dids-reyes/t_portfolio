@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full StackOverflow Developer 😂 kidding aside, i'm interested in Mobile Development and Artificial Intelligence."
   ),
   resumeLink:
-    "https://www.docdroid.net/tOdeALf/cv-dids-pdf", // Set to empty to hide the button
+    "https://www.docdroid.net/fx8d15b/dids-irwyn-reyes-software-engineer-pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
