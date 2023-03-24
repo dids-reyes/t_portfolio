@@ -23,7 +23,7 @@ const greeting = {
   username: "Dids",
   title: "Hi! I'm Dids Irwyn Reyes",
   subTitle: emoji(
-    "A passionate Full StackOverflow Developer 😂 kidding aside, i'm interested in Mobile Development and Artificial Intelligence."
+    "A passionate Full StackOverflow Developer 😂 kidding aside, I work as a software engineer (backend), though I'm also capable of working on frontend, and I also conduct manual and end-to-end testing alongside software quality assurance."
   ),
   resumeLink:
     "https://www.docdroid.net/fx8d15b/dids-irwyn-reyes-software-engineer-pdf", // Set to empty to hide the button
@@ -62,6 +62,8 @@ const skillsSection = {
     emoji(
       "End to End Testing in Playwright Framework for Web Test and Automation"
     ),
+    emoji("Worked on Natural Language Processing."),
+    emoji("Experienced Machine Learning Open Source Framework: RASA"),
     emoji("Can implement Backend Service."),
     // emoji("Integrates Third-Party Services."),
     emoji("Experience in Elixir and Phoenix Framework")
