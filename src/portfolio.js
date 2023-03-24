@@ -54,10 +54,17 @@ const skillsSection = {
     "I'm currently working as Backend Developer, but also knowledgeable in Frontend Development.",
   skills: [
     emoji(
-      "🧑‍💻 Develop highly Interactive Front End / User Interfaces for your Web and Mobile Applications"
+      "Develop highly Interactive Front End / User Interfaces for your Web and Mobile Applications"
+    ),
+    emoji(
+      "Experienced Unit Test in Software Development and E2E Testing for Web Apps"
+    ),
+    emoji(
+      "End to End Testing in Playwright Framework for Web Test and Automation"
     ),
     emoji("Can implement Backend Service."),
-    emoji("Integrates Third-Party Services.")
+    // emoji("Integrates Third-Party Services."),
+    emoji("Experience in Elixir and Phoenix Framework")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,6 +96,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-android"
     },
     {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
       skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github"
     },
@@ -99,6 +110,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "yarn",
+      fontAwesomeClassname: "fab fa-yarn"
     },
     // {
     //   skillName: "reactjs",
@@ -181,16 +196,16 @@ const techStack = {
   experience: [
     {
       Stack: "Version Control System", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      Stack: "Frontend/UI/UX", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "35%"
-    },
+      progressPercentage: "40%"
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -206,9 +221,7 @@ const workExperiences = {
       companylogo: require("./assets/images/logo_001.png"),
       date: "May 2019 – June 2020",
       // desc: "Database",
-      descBullets: [
-        "Database",
-      ]
+      descBullets: ["Database"]
     },
     {
       role: "Visual Graphic Designer",
@@ -216,11 +229,7 @@ const workExperiences = {
       companylogo: require("./assets/images/rcc.png"),
       date: "June 2019 – July 2020",
       // desc: "Adobe Ps, Premiere, Illustrator",
-      descBullets: [
-        "Adobe Photoshop",
-        "Adobe Illustrator",
-        "Adobe Premiere",
-      ]
+      descBullets: ["Adobe Photoshop", "Adobe Illustrator", "Adobe Premiere"]
     },
     {
       role: "Front-End Mobile Developer Intern",
@@ -228,9 +237,7 @@ const workExperiences = {
       companylogo: require("./assets/images/pragtechnologies.png"),
       date: "March 2022 – August 2022",
       desc: "Language used is Dart using Flutter Framework.",
-      descBullets: [
-        "Created Mobile App Projects and Implemented Jitsi Library",
-      ]
+      descBullets: ["Created Mobile App Projects and Implemented Jitsi Library"]
     },
     {
       role: "Jr. Software Engineer",
@@ -239,7 +246,7 @@ const workExperiences = {
       date: "August 2022 – Current",
       desc: "Back-End Development, Elixir",
       descBullets: [
-        "Assigned in Projects the Company is currently working, most of it are Backend Stuffs",
+        "Assigned in Projects the Company is currently working, most of it are Backend Stuffs"
       ]
     },
     {
@@ -248,10 +255,8 @@ const workExperiences = {
       companylogo: require("./assets/images/syd.jpg"),
       date: "August 2022 – Current",
       desc: "Back-End Development, using Elixir and Phoenix Framework",
-      descBullets: [
-        "Worked Mostly in Telemedicine Platform",
-      ]
-    },
+      descBullets: ["Worked Mostly in Telemedicine Platform"]
+    }
     // {
     //   role: "Software Engineer Intern",
     //   company: "Airbnb",
@@ -290,7 +295,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/rcc.png"),
-      projectName: "Romblon Cable Corporation",
+      projectName: "Romblon Cable Corporation"
       // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       // footerLink: [
       //   {
@@ -348,7 +353,10 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/c++.png"),
       footerLink: [
-        {name: "Certification", url: "https://www.udemy.com/certificate/UC-71344b1f-aaca-4369-ab72-6817fbf49272/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"},
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-71344b1f-aaca-4369-ab72-6817fbf49272/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -379,6 +387,12 @@ const blogSection = {
       title: "Historical Negationism and the Rise of Cyber Propaganda",
       description:
         "From campaign jingles to political advertisements on our televisions, it evolves and passes to our personal smartphones, where we don’t notice that targeting individuals actually work through the use of data and new technologies that are unknown to most of the Netizens that use Social Media."
+    },
+    {
+      url: "https://medium.com/@dids.irwyn.reyes/configuring-neovim-92cd45995f31",
+      title: "Configuring Neovim",
+      description:
+        "I’m writing this blog for me 😄 i always forget my Nvim setup when changing to different Linux Distribution, but feel free to copy my config. This is for current Linux Distro: Mint, Flavor: Cinnamon"
     }
   ],
   display: true // Set false to hide this section, defaults to true
