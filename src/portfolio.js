@@ -258,6 +258,14 @@ const workExperiences = {
       date: "August 2022 – Current",
       desc: "Back-End Development, using Elixir and Phoenix Framework",
       descBullets: ["Worked Mostly in Telemedicine Platform"]
+    },
+    {
+      role: "Quality Assurance",
+      company: "culionXchange",
+      companylogo: require("./assets/images/stanfordLogo.png"),
+      date: "August 2022 – Current",
+      desc: "Fintech",
+      descBullets: ["Test Automation", "Penetration Testing", "Performance Testing"]
     }
     // {
     //   role: "Software Engineer Intern",
@@ -318,38 +326,6 @@ const achievementSection = {
   subtitle: "Achievements & Certifications",
 
   achievementsCards: [
-    // {
-    //   title: "Google Code-In Finalist",
-    //   subtitle:
-    //     "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-    //   image: require("./assets/images/codeInLogo.webp"),
-    //   footerLink: [
-    //     {
-    //       name: "Certification",
-    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-    //     },
-    //     {
-    //       name: "Award Letter",
-    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-    //     },
-    //     {
-    //       name: "Google Code-in Blog",
-    //       url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-    //     }
-    //   ]
-    // },
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/c++.png"),
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
     {
       title: "Advanced C++ Programming",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
@@ -359,10 +335,17 @@ const achievementSection = {
           name: "Certification",
           url: "https://www.udemy.com/certificate/UC-71344b1f-aaca-4369-ab72-6817fbf49272/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"
         }
-        // {
-        //   name: "Final Project",
-        //   url: "https://pakistan-olx-1.firebaseapp.com/"
-        // }
+      ]
+    },
+    {
+      title: "Burp Suite for Advanced Web and Mobile Pentesting",
+      subtitle: "Completed Certifcation for Security/Penetration Testing",
+      image: require("./assets/images/burp_suite.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-b99f320b-13ca-4446-8324-74d8e854ebd1/"
+        }
       ]
     }
   ],
@@ -395,6 +378,12 @@ const blogSection = {
       title: "Configuring Neovim",
       description:
         "I’m writing this blog for me 😄 i always forget my Nvim setup when changing to different Linux Distribution, but feel free to copy my config. This is for current Linux Distro: Mint, Flavor: Cinnamon"
+    },
+    {
+      url: "https://medium.com/@dids.irwyn.reyes/best-movies-to-watch-for-programmers-developers-b8d3d17e2c38",
+      title: "Best Movies to watch for Programmers/Developers",
+      description:
+        "Are you looking for entertaining films on computer programming, software development, and technology? I’ve gathered my top films for software developers/programmers here."
     }
   ],
   display: true // Set false to hide this section, defaults to true
