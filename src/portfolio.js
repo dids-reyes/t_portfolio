@@ -23,7 +23,7 @@ const greeting = {
   username: "Dids",
   title: "Hi! I'm Dids Irwyn Reyes",
   subTitle: emoji(
-    "A passionate Full StackOverflow Developer 😂 kidding aside, I work as a software engineer (backend), though I'm also capable of working on frontend, and I also conduct manual and end-to-end testing alongside software quality assurance."
+    "While I maintain my playful 'Full StackOverflow Developer' persona 😂, my current focus is in Quality Assurance with a specialization in Test Automation and security testing. I have a background in software engineering, primarily on the backend, and I actively engage in manual and end-to-end testing as part of my software quality assurance role. Beyond that, I'm deeply involved in penetration testing, load tests, functional tests, and API tests."
   ),
   resumeLink:
     "https://www.docdroid.net/fx8d15b/dids-irwyn-reyes-software-engineer-pdf", // Set to empty to hide the button
