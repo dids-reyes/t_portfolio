@@ -51,22 +51,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "I'm currently working as Backend Developer, but also knowledgeable in Frontend Development.",
+    "I'm currently working as a Software Development Engineer in Test (SDET) focused in Automation, but also knowledgeable in other Fields of Quality Assurance e.g, Manual.",
   skills: [
-    emoji(
-      "Develop highly Interactive Front End / User Interfaces for your Web and Mobile Applications"
-    ),
-    emoji(
-      "Experienced Unit Test in Software Development and E2E Testing for Web Apps"
-    ),
-    emoji(
-      "End to End Testing in Playwright Framework for Web Test and Automation"
-    ),
-    emoji("Worked on Natural Language Processing."),
-    emoji("Experienced Machine Learning Open Source Framework: RASA"),
-    emoji("Can implement Backend Service."),
-    // emoji("Integrates Third-Party Services."),
-    emoji("Experience in Elixir and Phoenix Framework")
+    emoji("Skilled in End to End Testing in Playwright Framework, Appium, Cypress & Detox for Web/Mobile Test Automation"),
+    emoji("REST/GraphQL API Testing with Postman (Manual) and Newman (Automated)"),
+    emoji("Exploratory Penetration Testing with Burp Suite, OWASP Amass & Zed Attack Proxy (ZAP)."),
+    emoji("Experienced in Elixir and Phoenix Framework (Functional Programming)"),
+    emoji("Unit Testing in Software Development and E2E Testing for Web Apps"),
+    emoji("Can implement Backend/Third-Party Service."),
+    emoji("Experienced in Machine Learning Development using Open Source Framework: RASA"),
+    emoji("Worked on Natural Language Processing (NLP).")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
