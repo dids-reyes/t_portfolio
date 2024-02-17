@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "dids.irwyn@gmail.com",
   gitlab: "https://gitlab.com/skedaddl3",
   // facebook: "https://www.facebook.com/didsirwyn.reyes",
-  instagram: "https://www.instagram.com/p0tatofu/",
+  instagram: "https://www.instagram.com/potatofuuuu/",
   //medium: "https://medium.com/@reyes.dids.bscs",
   stackoverflow: "https://stackoverflow.com/users/10428502/dids",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -243,7 +243,7 @@ const workExperiences = {
       role: "Jr. Software Engineer",
       company: "Pragtechnologies",
       companylogo: require("./assets/images/pragtechnologies.png"),
-      date: "August 2022 – Current",
+      date: "August 2022 – March 2023",
       desc: "Back-End Development, Elixir",
       descBullets: [
         "Assigned in Projects the Company is currently working, most of it are Backend Stuffs"
@@ -253,15 +253,15 @@ const workExperiences = {
       role: "Jr. Software Engineer",
       company: "SeeYouDoc",
       companylogo: require("./assets/images/syd.jpg"),
-      date: "August 2022 – Current",
+      date: "August 2022 – March 2023",
       desc: "Back-End Development, using Elixir and Phoenix Framework",
       descBullets: ["Worked Mostly in Telemedicine Platform"]
     },
     {
       role: "Quality Assurance",
       company: "culionXchange",
-      companylogo: require("./assets/images/stanfordLogo.png"),
-      date: "August 2022 – Current",
+      companylogo: require("./assets/images/Payko.png"),
+      date: "April 2023 – Current",
       desc: "Fintech",
       descBullets: ["Test Automation", "Penetration/Security", "Performance Testing", "API Testing"]
     }
