@@ -26,7 +26,7 @@ const greeting = {
     "While I maintain my playful 'Full StackOverflow Developer' persona 😂, my current focus is in Quality Assurance with a specialization in Test Automation and security testing. I have a background in software engineering, primarily on the backend, and I actively engage in manual and end-to-end testing as part of my software quality assurance role. Beyond that, I'm deeply involved in penetration testing, load tests, functional tests, and API tests."
   ),
   resumeLink:
-    "https://www.docdroid.net/fx8d15b/dids-irwyn-reyes-software-engineer-pdf", // Set to empty to hide the button
+    "https://docdro.id/vZNh7FU", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -197,6 +197,10 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Test Automation", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Version Control System", //Insert stack or technology you have experience in
       progressPercentage: "85%" //Insert relative proficiency in percentage
     },
@@ -265,7 +269,7 @@ const workExperiences = {
       companylogo: require("./assets/images/stanfordLogo.png"),
       date: "August 2022 – Current",
       desc: "Fintech",
-      descBullets: ["Test Automation", "Penetration Testing", "Performance Testing"]
+      descBullets: ["Test Automation", "Penetration/Security", "Performance Testing", "API Testing"]
     }
     // {
     //   role: "Software Engineer Intern",
@@ -345,6 +349,28 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://www.udemy.com/certificate/UC-b99f320b-13ca-4446-8324-74d8e854ebd1/"
+        }
+      ]
+    },
+    {
+      title: "Postman: Rest API Testing",
+      subtitle: "Completed Certifcation for API Automation",
+      image: require("./assets/images/postman.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-b4ece8a4-3c0f-4d7d-ac82-f13d25c8e1de/"
+        }
+      ]
+    },
+    {
+      title: "Performance Testing: Intro to Grafana K6",
+      subtitle: "Completed Certifcation for Performance Testing",
+      image: require("./assets/images/k6.png"),
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.udemy.com/certificate/UC-a15eb4da-07d3-458c-b00a-3cfd040645bc/"
         }
       ]
     }
