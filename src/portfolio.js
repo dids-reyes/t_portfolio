@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "While I maintain my playful 'Full StackOverflow Developer' persona 😂, my current focus is in Quality Assurance with a specialization in Test Automation and security testing. I have a background in software engineering, primarily on the backend, and I actively engage in manual and end-to-end testing as part of my software quality assurance role. Beyond that, I'm deeply involved in penetration testing, load tests, functional tests, and API tests."
   ),
-  resumeLink:
-    "https://docdro.id/vZNh7FU", // Set to empty to hide the button
+  resumeLink: "https://docdro.id/vZNh7FU", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -53,13 +52,23 @@ const skillsSection = {
   subTitle:
     "I'm currently working as a Software Development Engineer in Test (SDET) focused in Automation, but also knowledgeable in other Fields of Quality Assurance e.g, Manual.",
   skills: [
-    emoji("Skilled in End to End Testing in Playwright Framework, Appium, Cypress & Detox for Web/Mobile Test Automation"),
-    emoji("REST/GraphQL API Testing with Postman (Manual) and Newman (Automated)"),
-    emoji("Exploratory Penetration Testing with Burp Suite, OWASP Amass & Zed Attack Proxy (ZAP)."),
-    emoji("Experienced in Elixir and Phoenix Framework (Functional Programming)"),
+    emoji(
+      "Skilled in End to End Testing in Playwright Framework, Appium, Cypress & Detox for Web/Mobile Test Automation"
+    ),
+    emoji(
+      "REST/GraphQL API Testing with Postman (Manual) and Newman (Automated)"
+    ),
+    emoji(
+      "Exploratory Penetration Testing with Burp Suite, OWASP Amass & Zed Attack Proxy (ZAP)."
+    ),
+    emoji(
+      "Experienced in Elixir and Phoenix Framework (Functional Programming)"
+    ),
     emoji("Unit Testing in Software Development and E2E Testing for Web Apps"),
     emoji("Can implement Backend/Third-Party Service."),
-    emoji("Experienced in Machine Learning Development using Open Source Framework: RASA"),
+    emoji(
+      "Experienced in Machine Learning Development using Open Source Framework: RASA"
+    ),
     emoji("Worked on Natural Language Processing (NLP).")
   ],
 
@@ -195,6 +204,10 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
+      Stack: "Pentesting", //Insert stack or technology you have experience in
+      progressPercentage: "50%" //Insert relative proficiency in percentage
+    },
+    {
       Stack: "Version Control System", //Insert stack or technology you have experience in
       progressPercentage: "85%" //Insert relative proficiency in percentage
     },
@@ -263,7 +276,12 @@ const workExperiences = {
       companylogo: require("./assets/images/Payko.png"),
       date: "April 2023 – Current",
       desc: "Fintech",
-      descBullets: ["Test Automation", "Penetration/Security", "Performance Testing", "API Testing"]
+      descBullets: [
+        "Test Automation",
+        "Penetration/Security",
+        "Performance Testing",
+        "API Testing"
+      ]
     }
     // {
     //   role: "Software Engineer Intern",
@@ -286,38 +304,25 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
-  subtitle: "Internships and Projects I worked on during my Senior High",
+  title: "Personal Project",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/municipality_r1.png"),
-      projectName: "Municipality of Romblon",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ltc.png"),
+      projectName: "Letters to Casper",
+      projectDesc:
+        "A platform for expressing your unsaid feelings and thoughts.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://romblonthemarble.gov.ph/"
+          url: "https://letterstocasper.ph/"
         }
-        //  you can add extra buttons here.
+        //  add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/rcc.png"),
-      projectName: "Romblon Cable Corporation"
-      // projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      // footerLink: [
-      //   {
-      //     name: "Visit Website",
-      //     url: "http://nextu.se/"
-      //   }
-      // ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
-
-// Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
