@@ -26,7 +26,7 @@ const greeting = {
     "While I maintain my playful 'Full StackOverflow Developer' persona 😂, my current focus is in Quality Assurance with a specialization in Test Automation and security testing. I have a background in software engineering, primarily on the backend, and I actively engage in manual and end-to-end testing as part of my software quality assurance role. Beyond that, I'm deeply involved in penetration testing, load tests, functional tests, and API tests."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Q9WPmYmk5WcKeqUFsv2xpWKQRI3ZAYpQ/view?usp=sharing",
+    "https://drive.google.com/file/d/1OnMXEGejsbCB76Q4vQBF2RGP7dqe8E1e/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
